@@ -10,8 +10,6 @@ Google uses this application to demonstrate how developers can modernize enterpr
 
 If you’re using this demo, please **★Star** this repository to show your interest!
 
-**Note to Googlers:** Please fill out the form at [go/microservices-demo](http://go/microservices-demo).
-
 ## Architecture
 
 **Online Boutique** is composed of 11 microservices written in different
@@ -51,7 +49,7 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 2. Clone the latest major version.
 
    ```sh
-   git clone --depth 1 --branch v0 https://github.com/GoogleCloudPlatform/microservices-demo.git
+   git clone --depth 1 --branch v0 [https://github.com/GoogleCloudPlatform/microservices-demo.git](https://github.com/puplampuclou/kwamep2025-microservices-demo.git)
    cd microservices-demo/
    ```
 
