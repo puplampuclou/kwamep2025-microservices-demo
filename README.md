@@ -49,7 +49,7 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 2. Clone the latest major version.
 
    ```sh
-   git clone --depth 1 --branch v0 [https://github.com/GoogleCloudPlatform/microservices-demo.git](https://github.com/puplampuclou/kwamep2025-microservices-demo.git)
+   git clone --depth 1 [https://github.com/GoogleCloudPlatform/microservices-demo.git](https://github.com/puplampuclou/kwamep2025-microservices-demo.git)
    cd microservices-demo/
    ```
 
@@ -58,7 +58,7 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 3. Set the Google Cloud project and region and ensure the Google Kubernetes Engine API is enabled.
 
    ```sh
-   export PROJECT_ID=<PROJECT_ID>
+   export PROJECT_ID=gke-hackathon-471319
    export REGION=us-central1
    gcloud services enable container.googleapis.com \
      --project=${PROJECT_ID}
