@@ -58,10 +58,10 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 3. Set the Google Cloud project and region and ensure the Google Kubernetes Engine API is enabled.
 
    ```sh
-   export PROJECT_ID=gke-hackathon-471319
-   export REGION=us-central1
-   gcloud services enable container.googleapis.com \
-     --project=${PROJECT_ID}
+  export PROJECT_ID=<PROJECT_ID>
+  export REGION=us-central1
+  gcloud services enable container.googleapis.com \
+    --project=${PROJECT_ID}
    ```
 
    Substitute `<PROJECT_ID>` with the ID of your Google Cloud project.
